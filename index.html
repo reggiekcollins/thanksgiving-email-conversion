@@ -26,6 +26,27 @@
    -ms-interpolation-mode: bicubic;
   }
 
+
+  /* GMAIL BLUE LINKS */
+  u+#body a {
+   color: inherit;
+   text-decoration: none;
+   font-size: inherit;
+   font-family: inherit;
+   font-weight: inherit;
+   line-height: inherit;
+  }
+
+  /* iOS BLUE LINKS */
+  a[x-apple-data-detectors] {
+   color: inherit !important;
+   text-decoration: none !important;
+   font-size: inherit !important;
+   font-family: inherit !important;
+   font-weight: inherit !important;
+   line-height: inherit !important;
+  }
+
   /* RESET STYLES */
   img {
    border: 0;
@@ -52,11 +73,15 @@
    background: #ff6f0c;
    margin: 30px 0px;
   }
+
+  .links a:hover {
+   color: aqua;
+  }
  </style>
 </head>
 
 <body style="margin: 0 !important; padding: 0 !important;">
- <div style="display: none; max-height: 0; overflow: hidden;">
+ <div style=" max-height: 0; overflow: hidden;">
   Preview text message goes here
  </div>
 
@@ -199,18 +224,14 @@
                    </tr>
                    <tr>
                     <td align="center">
-                     <a href="https://facebook.com" target="_blank">
-                      <img src="images/facebook.png" alt="facebook" width="40px" style="margin-left:10px;">
-                     </a>
-                     <a href="https://twitter.com" target="_blank">
-                      <img src="images/twitter.png" alt="twitter" width="40px" style="margin-left:10px">
-                     </a>
-                     <a href="https://instagram.com" target="_blank">
-                      <img src="images/ig.png" alt="instagram" width="40px" style="margin-left:10px">
-                     </a>
-                     <a href="https://pinterest.com" target="_blank">
-                      <img src="images/pinterest.png" alt="pinterest" width="40px" style="margin-left:10px">
-                     </a>
+                     <a href="https://facebook.com" target="_blank"
+                      style="color:#ffffff;text-decoration: none; font-size:22px;text-transform: capitalize; margin-right: 10px;">facebook</a>
+                     <a href="https://twitter.com" target="_blank"
+                      style="color:#ffffff;text-decoration: none; font-size:22px;text-transform: capitalize;margin-right: 10px;">twitter</a>
+                     <a href="https://instagram.com" target="_blank"
+                      style="color:#ffffff;text-decoration: none; font-size:22px;text-transform: capitalize;margin-right: 10px;">instagram</a>
+                     <a href="https://pinterest.com" target="_blank"
+                      style="color:#ffffff;text-decoration: none; font-size:22px;text-transform: capitalize;margin-right: 10px;">pinterest</a>
                     </td>
                    </tr>
                    <tr>
