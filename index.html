@@ -74,13 +74,24 @@
       margin: 30px 0px;
     }
 
-    @media screen and (max-width:375px) {
+    @media screen and (max-width:640px) {
       .table {
         width: 100% !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+      }
+
+      .links {
+        padding: 24px 0px !important;
+      }
+
+      .footer {
+        font-size: 24px !important;
+        padding-left: 0px !important;
       }
 
       .mobile-copy {
-        font-size: 28px !important;
+        font-size: 26px !important;
         line-height: 38px !important;
       }
 
@@ -121,7 +132,7 @@
                   <td>
                     <img
                       src="https://www.lacicala.org/immagini_news/31-05-2019/dieta-chetogenica-dei-21-giorni-menu-giornaliero-per-dimagrire-drasticamente-600.jpg"
-                      alt="turkey" />
+                      alt="turkey" class="table" width:100%; max-width:100%; min-width="250px" />
                   </td>
                 </tr>
               </table>
@@ -169,8 +180,8 @@
                     <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
                       <tr>
                         <td>
-                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="47%" role="presentation"
-                            class="table">
+                          <table align="left" border="0" class="table" cellspacing="0" cellpadding="0" width="47%"
+                            role="presentation" class="table">
                             <tr>
                               <td>
                                 <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
@@ -179,7 +190,7 @@
                                     <td align="center" style="padding-bottom:14px;">
                                       <img
                                         src="https://i.pinimg.com/originals/58/96/2a/58962a5ee039366cc63ee457143d79c1.jpg"
-                                        alt="pumpkin soup" width="300" />
+                                        alt="pumpkin soup" width="300" width:100%; max-width:100%; min-width="150px" />
                                     </td>
                                   </tr>
                                   <tr>
@@ -200,8 +211,8 @@
                             </tr>
                           </table>
 
-                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="47%" role="presentation"
-                            class="table">
+                          <table align="left" border="0" class="table" cellspacing="0" cellpadding="0" width="47%"
+                            role="presentation" class="table">
                             <tr>
                               <td>
                                 <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
@@ -210,7 +221,7 @@
                                     <td align="center" style="padding-bottom:px;">
                                       <img
                                         src="https://bakingamoment.com/wp-content/uploads/2018/08/IMG_9624-homemade-funfetti-cupcakes-recipe-square.jpg"
-                                        alt="cupcakes" width="260" />
+                                        alt="cupcakes" width="260" width:100%; max-width:100%; min-width="150px" />
                                     </td>
                                   </tr>
                                   <tr>
@@ -232,7 +243,7 @@
                               </td>
                             </tr>
                           </table>
-
+                          <!--  social links -->
                       <tr>
                         <td>
                           <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
@@ -240,7 +251,7 @@
                             <tr>
                               <td bgcolor="#ff9d56" style="padding:10px 0px 80px 0px">
                                 <table align="center" border="0" cellspacing="0" cellpadding="0" width="600"
-                                  role="presentation">
+                                  role="presentation" class="table">
                                   <tr>
                                     <td>
                                       <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
@@ -251,89 +262,56 @@
                                             <h5>follow us</h5>
                                           </td>
                                         </tr>
-                                        <tr>
-                                          <td align="center" style="font-family:'montserrat',arial">
-                                            <a href="https://facebook.com" target="_blank"
-                                              style="color:#ffffff;text-decoration: none; font-size:22px;text-transform: capitalize; margin-right: 10px;">facebook</a>
-                                            <a href="https://twitter.com" target="_blank"
-                                              style="color:#ffffff;text-decoration: none; font-size:22px;text-transform: capitalize;margin-right: 10px;">twitter</a>
-                                            <a href="https://instagram.com" target="_blank"
-                                              style="color:#ffffff;text-decoration: none; font-size:22px;text-transform: capitalize;margin-right: 10px;">instagram</a>
-                                            <a href="https://pinterest.com" target="_blank"
-                                              style="color:#ffffff;text-decoration: none; font-size:22px;text-transform: capitalize;margin-right: 10px;">pinterest</a>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                            style="font-size: 24px;color: #ffffff;font-family: 'montserrat',arial">
-                                            <address style="margin-top:60px">
-                                              Location<br />
-                                              15552 Daystar, Davis,
-                                              NJ 18730
-                                            </address>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </table>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
+                                          role="presentation" class="table">
+                                          <tr>
+                                            <td class="links">
+                                              <a href="https://facebook.com"
+                                                style="border-radius: 50%;padding:16px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:20px;text-transform: capitalize;"
+                                                class="table">facebook</a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
+                                          role="presentation" class="table">
+                                          <tr>
+                                            <td class="links">
+                                              <a href="https://twitter.com"
+                                                style="border-radius: 50%;padding:16px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:20px;text-transform: capitalize;"
+                                                class="table">twitter </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
+                                          role="presentation" class="table">
+                                          <tr>
+                                            <td class="links">
+                                              <a href="https://pinterest.com"
+                                                style="border-radius: 50%;padding:16px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:20px;text-transform: capitalize;"
+                                                class="table">pinterest</a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
+                                          role="presentation" class="table">
+                                          <tr>
+                                            <td class="links">
+                                              <a href="https://youtube.com"
+                                                style="border-radius: 50%;padding:16px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:20px;text-transform: capitalize;"
+                                                class="table">youtube</a>
+                                            </td>
+                                          </tr>
+                                        </table>
 
-                          <!--  footer -->
-                      <tr>
-                        <td>
-                          <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
-                            role="presentation">
-                            <tr>
-                              <td style="font-family:'montserrat',arial;text-transform:capitalize; padding-left:100px">
-                                <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%"
-                                  role="presentation">
-                                  <tr>
-                                    <td>
-                                      <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
-                                        role="presentation">
-                                        <tr>
-                                          <td style="padding:30px">
-                                            <p>
-                                              privacy policy
-                                            </p>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
                                   </tr>
-                                </table>
-
-                                <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%"
-                                  role="presentation">
                                   <tr>
-                                    <td>
-                                      <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
-                                        role="presentation">
-                                        <tr>
-                                          <td style="padding:30px">
-                                            <p>terms of use</p>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table>
-
-                                <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%"
-                                  role="presentation">
-                                  <tr>
-                                    <td>
-                                      <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
-                                        role="presentation">
-                                        <tr>
-                                          <td style="padding:30px">
-                                            <p>unsubscribe</p>
-                                          </td>
-                                        </tr>
-                                      </table>
+                                    <td align="center"
+                                      style="font-size: 24px;color: #ffffff;font-family: 'montserrat',arial">
+                                      <address style="margin-top:60px">
+                                        Location<br />
+                                        15552 Daystar, Davis,
+                                        NJ 18730
+                                      </address>
                                     </td>
                                   </tr>
                                 </table>
@@ -342,13 +320,76 @@
                           </table>
                         </td>
                       </tr>
+                    </table>
+
+                    <!--  footer -->
+                <tr>
+                  <td>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
+                      <tr>
+                        <td class="footer"
+                          style="font-family:'montserrat',arial;text-transform:capitalize; padding-left:100px">
+                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%" role="presentation"
+                            class="table">
+                            <tr>
+                              <td>
+                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
+                                  role="presentation">
+                                  <tr>
+                                    <td style="padding:30px">
+                                      <p>
+                                        privacy policy
+                                      </p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%" role="presentation"
+                            class="table">
+                            <tr>
+                              <td>
+                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
+                                  role="presentation">
+                                  <tr>
+                                    <td style="padding:30px">
+                                      <p>terms of use</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%" role="presentation"
+                            class="table">
+                            <tr>
+                              <td>
+                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
+                                  role="presentation">
+                                  <tr>
+                                    <td style="padding:30px">
+                                      <p>unsubscribe</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
                   </td>
                 </tr>
             </td>
           </tr>
-        </table>
       </td>
     </tr>
+  </table>
+  </td>
+  </tr>
   </table>
   </td>
   </tr>
