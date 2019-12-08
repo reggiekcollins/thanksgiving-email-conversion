@@ -107,7 +107,39 @@
         line-height: 38px !important;
       }
 
+    }
 
+    input {
+      display: none;
+    }
+
+    #slide1:checked~.slide1,
+    #slide2:checked~.slide2,
+    #slide3:checked~.slide3 {
+      display: block;
+    }
+
+    label {
+      color: #ffffff;
+      cursor: pointer;
+      padding: 1rem 0;
+      width: 233px;
+      display: block;
+      float: left;
+    }
+
+
+    .slide {
+      padding: 50px;
+      color: #ffffff;
+      background: #000000;
+      width: 600px;
+      clear: both;
+      display: none;
+    }
+
+    .slide .slide1 {
+      background: #ff6f0c;
     }
   </style>
 </head>
@@ -128,6 +160,7 @@
           <tr>
             <td>
               <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
+                <!--  logo  -->
                 <tr>
                   <td style="padding:12px 0px;">
                     <img
@@ -136,7 +169,9 @@
                   </td>
                 </tr>
               </table>
+              <!--  end logo -->
 
+              <!--  hero image  -->
           <tr>
             <td>
               <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
@@ -148,7 +183,9 @@
                   </td>
                 </tr>
               </table>
+              <!--  end hero -->
 
+              <!--  start main content -->
           <tr>
             <td align=" center"
               style="text-transform:capitalize; font-family:'Montserrat',arial;font-weight:bold;font-size:30px;">
@@ -179,6 +216,7 @@
               <p class="line"></p>
             </td>
           </tr>
+          <!--  start  receipe section -->
           <tr>
             <td>
               <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
@@ -256,135 +294,62 @@
                               </td>
                             </tr>
                           </table>
-                          <!--  social links -->
+                          <!--  end receipe section -->
                       <tr>
                         <td>
                           <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
                             role="presentation">
                             <tr>
-                              <td bgcolor="#ff9d56" style="padding:10px 0px 80px 0px">
+                              <td align="center">
                                 <table align="center" border="0" cellspacing="0" cellpadding="0" width="600"
-                                  role="presentation" class="table">
+                                  role="presentation" class="mobile-copy">
                                   <tr>
-                                    <td>
-                                      <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
+                                    <td align="center" style="padding:1rem 0">
+                                      <tablealign="center" border="0" cellspacing="0" cellpadding="0" width="100%"
                                         role="presentation">
-                                        <tr>
-                                          <td align="center"
-                                            style="font-size:28px;color: #ffffff;text-transform: capitalize;font-family: 'Montserrat',arial">
-                                            <h5>follow us</h5>
-                                          </td>
-                                        </tr>
-                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
-                                          role="presentation" class="table">
-                                          <tr>
-                                            <td class="links">
-                                              <a href="https://facebook.com"
-                                                style="border-radius: 50%;padding:16px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:18px;text-transform: capitalize;"
-                                                class="table">facebook</a>
-                                            </td>
-                                          </tr>
-                                        </table>
-                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
-                                          role="presentation" class="table">
-                                          <tr>
-                                            <td class="links">
-                                              <a href="https://twitter.com"
-                                                style="border-radius: 50%;padding:16px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:18px;text-transform: capitalize;letter-spacing: 1.5px;"
-                                                class="table">twitter </a>
-                                            </td>
-                                          </tr>
-                                        </table>
-                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
-                                          role="presentation" class="table">
-                                          <tr>
-                                            <td class="links">
-                                              <a href="https://pinterest.com"
-                                                style="border-radius: 50%;padding:16px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:18px;text-transform: capitalize;"
-                                                class="table">pinterest</a>
-                                            </td>
-                                          </tr>
-                                        </table>
-                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
-                                          role="presentation" class="table">
-                                          <tr>
-                                            <td class="links">
-                                              <a href="https://youtube.com"
-                                                style="border-radius: 50%;padding:8px 18px 8px 18px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:18px;text-transform: capitalize;"
-                                                class="table">youtube</a>
-                                            </td>
-                                          </tr>
-                                        </table>
-
-                                  </tr>
                                   <tr>
                                     <td align="center"
-                                      style="font-size: 24px;color: #ffffff;font-family: 'montserrat',arial">
-                                      <address style="margin-top:60px">
-                                        Location<br />
-                                        15552 Daystar, Davis,
-                                        NJ 18730
-                                      </address>
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
+                                      style="padding:40px; font-family:sans-serif; font-size:18px; color:#000000;line-height:28px">
 
-                    <!--  footer -->
-                <tr>
-                  <td>
-                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
-                      <tr>
-                        <td class="footer"
-                          style="font-family:'montserrat',arial;text-transform:capitalize; padding-left:100px">
-                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%" role="presentation"
-                            class="table">
-                            <tr>
-                              <td>
-                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
-                                  role="presentation">
-                                  <tr>
-                                    <td style="padding:30px">
-                                      <p>
-                                        privacy policy
-                                      </p>
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </table>
+                                      <h2 style="font-size:44px">More Receipes</h2>
 
-                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%" role="presentation"
-                            class="table">
-                            <tr>
-                              <td>
-                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
-                                  role="presentation">
-                                  <tr>
-                                    <td style="padding:30px">
-                                      <p>terms of use</p>
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </table>
+                                      <input type="radio" name="slides" id="slide1" checked>
+                                      <input type="radio" name="slides" id="slide2">
+                                      <input type="radio" name="slides" id="slide3">
 
-                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%" role="presentation"
-                            class="table">
-                            <tr>
-                              <td>
-                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
-                                  role="presentation">
-                                  <tr>
-                                    <td style="padding:30px">
-                                      <p>unsubscribe</p>
+                                      <label for="slide1"
+                                        style="background-color:#ff6f0c;font-size:36px;text-transform: capitalize">slide1</label>
+                                      <label for="slide2"
+                                        style="background-color:#000000;font-size:36px;text-transform: capitalize">slide2</label>
+                                      <label for="slide3"
+                                        style="background-color:#ff6f0c;font-size:36px;text-transform: capitalize">slide3</label>
+
+                                      <div class="slide slide1">
+                                        <h4>Receipe One</h4>
+                                        <img
+                                          src=https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                                          alt="" width="600" border="0"
+                                          style="width:100%;max-width:100%;min-width:200px;display: block">
+                                        <p style="font-size:34px">Christmas Treat</p>
+                                      </div>
+
+                                      <div class="slide slide2">
+                                        <h4>Receipe Two</h4>
+                                        <img
+                                          src="https://images.pexels.com/photos/2957897/pexels-photo-2957897.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                                          alt="" border="0" width="600"
+                                          style="width:100%;max-width:100%;min-width:200px;display: block">
+                                        <p style="font-size:34px">Christmas Treat</p>
+                                      </div>
+
+                                      <div class="slide slide3">
+                                        <h4>Receipe Three</h4>
+                                        <img
+                                          src="https://images.pexels.com/photos/954199/pexels-photo-954199.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                                          alt="" border="0" width="600"
+                                          style="width:100%;max-width:100%;min-width:200px;display: block">
+                                        <p style="font-size:34px">Christmas Treat</p>
+                                      </div>
                                     </td>
                                   </tr>
                                 </table>
@@ -396,9 +361,148 @@
                     </table>
                   </td>
                 </tr>
+
+                <!--  social links -->
+                <tr>
+                  <td>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
+                      <tr>
+                        <td bgcolor="#ff9d56" style="padding:10px 0px 80px 0px">
+                          <table align="center" border="0" cellspacing="0" cellpadding="0" width="600"
+                            role="presentation" class="table">
+                            <tr>
+                              <td>
+                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
+                                  role="presentation">
+                                  <tr>
+                                    <td align="center"
+                                      style="font-size:28px;color: #ffffff;text-transform: capitalize;font-family: 'Montserrat',arial">
+                                      <h5>follow us</h5>
+                                    </td>
+                                  </tr>
+                                  <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
+                                    role="presentation" class="table">
+                                    <tr>
+                                      <td class="links">
+                                        <a href="https://facebook.com"
+                                          style="border-radius: 50%;padding:16px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:18px;text-transform: capitalize;"
+                                          class="table">facebook</a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
+                                    role="presentation" class="table">
+                                    <tr>
+                                      <td class="links">
+                                        <a href="https://twitter.com"
+                                          style="border-radius: 50%;padding:16px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:18px;text-transform: capitalize;letter-spacing: 1.5px;"
+                                          class="table">twitter </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
+                                    role="presentation" class="table">
+                                    <tr>
+                                      <td class="links">
+                                        <a href="https://pinterest.com"
+                                          style="border-radius: 50%;padding:16px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:18px;text-transform: capitalize;"
+                                          class="table">pinterest</a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <table align="left" border="0" cellspacing="0" cellpadding="0" width="25%"
+                                    role="presentation" class="table">
+                                    <tr>
+                                      <td class="links">
+                                        <a href="https://youtube.com"
+                                          style="border-radius: 50%;padding:8px 18px 8px 18px;background-color:#ffffff;color:#ff6f0c;text-decoration: none;font-size:18px;text-transform: capitalize;"
+                                          class="table">youtube</a>
+                                      </td>
+                                    </tr>
+                                  </table>
+
+                            </tr>
+                            <tr>
+                              <td align="center" style="font-size: 24px;color: #ffffff;font-family: 'montserrat',arial">
+                                <address style="margin-top:60px">
+                                  Location<br />
+                                  15552 Daystar, Davis,
+                                  NJ 18730
+                                </address>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <!--  footer -->
+          <tr>
+            <td>
+              <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
+                <tr>
+                  <td class="footer"
+                    style="font-family:'montserrat',arial;text-transform:capitalize; padding-left:100px">
+                    <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%" role="presentation"
+                      class="table">
+                      <tr>
+                        <td>
+                          <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
+                            role="presentation">
+                            <tr>
+                              <td style="padding:30px">
+                                <p>
+                                  privacy policy
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%" role="presentation"
+                      class="table">
+                      <tr>
+                        <td>
+                          <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
+                            role="presentation">
+                            <tr>
+                              <td style="padding:30px">
+                                <p>terms of use</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <table align="left" border="0" cellspacing="0" cellpadding="0" width="33%" role="presentation"
+                      class="table">
+                      <tr>
+                        <td>
+                          <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%"
+                            role="presentation">
+                            <tr>
+                              <td style="padding:30px">
+                                <p>unsubscribe</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
       </td>
+    </tr>
+    </td>
     </tr>
   </table>
   </td>
